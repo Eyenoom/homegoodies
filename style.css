@@ -1,0 +1,131 @@
+/* Color directory:
+Pale yellow (Background): #fff9e4
+Pale orange (Content backgrounds): #f6d8b6
+Orange (Accents): #c44c06
+Black (Text): #2b2a28
+White (Text): #f2eeee
+
+------------------------------------------------------
+*/
+
+/* Base Styles */
+
+body {
+    max-width: 375px;
+    background-color: #fff9e4;
+    color: #2b2a28;
+    margin: 0px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.menubar {
+    background-color: #c44c06;
+    color: #f2eeee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 4.5vw;
+}
+
+.menubar--min_profil {
+    background-color: #c44c06;
+    color: #f2eeee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 4.5vw;
+}
+
+
+#min_profil {
+    padding-right: 10px;
+}
+
+#ny_sogning {
+    padding-left: 10px;
+}
+
+main {
+    padding-bottom: 60px;
+}
+
+/* Index.html styles */
+
+.content {
+    text-align: center;
+    width: 100vw;
+}
+
+.content__search {
+    display: grid;
+    justify-items: center;
+}
+
+.content__input {
+    background-color: #f6d8b6;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.content__logo {
+    width: 100vw;
+}
+
+.content__searchinput {
+    background-color: #f6d8b6;
+    border: none;
+}
+
+.content__submit {
+    height: 30px;
+}
+
+
+/* search_result.html styles */
+
+.kategori {
+    position: absolute;
+    opacity: 0%;
+}
+
+.searchresult {
+
+}
+
+.searchresult__searchitem {
+    background-color: #f6d8b6;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.searchresult__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.searchresult__searchimage {
+    width: 100%;
+    margin: 10px;
+}
+
+.searchresult__textcontainer {
+    line-height: 0px;
+}
+
+.searchresult__price {
+    font-size: 26px;
+}
+
+.searchresult__time, .searchresult__name {
+    font-size: 18px;
+}
+
+.searchresult__author {
+    margin: 0;
+    padding-bottom: 10px;
+}
