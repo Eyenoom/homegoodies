@@ -130,6 +130,32 @@ main {
     padding-bottom: 10px;
 }
 
+/* Confirmation_getrud & confirmation_hans */
+
+.confirmation {
+    text-align: center;
+    padding: 10px;
+}
+
+.congrats {
+    font-size: 50px;;
+}
+
+.chatbutton {
+    position: relative;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.chatbutton p {
+    position: absolute;
+    justify-self: center;
+    top: 10px;
+    font-size: 20px;
+    color: #f2eeee;
+}
+
 /* CELINES RODET CSS, SORRY :(  */ 
 body {
     max-width: 375px;
