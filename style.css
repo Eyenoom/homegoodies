@@ -129,3 +129,113 @@ main {
     margin: 0;
     padding-bottom: 10px;
 }
+
+/* CELINES RODET CSS, SORRY :(  */ 
+body {
+    max-width: 375px;
+    background-color: #fff9e4;
+    color: #2b2a28;
+    margin: 0px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.menubar {
+    background-color: #c44c06;
+    color: #f2eeee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 4.5vw;
+}
+
+h1 {
+    text-align: center;
+    width: 100vw;
+}
+
+.nem_id {
+    background-color: #f6d8b6;
+    padding: 5px;
+    display: flex;
+    justify-content: center; 
+    width: 100vw;
+}
+
+.tidspunkt {
+    text-align: center;
+    width: 100vw;
+}
+
+.pris {
+    text-align: end;
+}
+
+.portion {
+    text-align: center;
+    width: 100vw;
+}
+
+
+.lasagne {
+    background-color: #f6d8b6;
+    text-align: end;
+    width: 100vw;
+    display: block;
+}
+
+.pastinak {
+    background-color: #f6d8b6;
+    text-align: end; 
+    width: 100vw;
+    display: block;
+}
+
+.frikadeller {
+    background-color: #f6d8b6;
+    text-align: end;
+    width: 100vw;
+    display: block;
+}
+
+.smørrebrød {
+    background-color: #f6d8b6;
+    text-align: end;
+    width: 100vw;
+    display: block;
+}
+
+.flæskesteg {
+    background-color: #f6d8b6;
+    text-align: end;
+    width: 100vw;
+    display: block;  
+}
+
+.navn {
+    text-align: center;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.oppe {
+    background-color: #c44c06;
+    color: #f2eeee;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 4.5vw;
+    width: 100vw;
+}
+
+.boller {
+    background-color: #f6d8b6;
+    display: block;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
