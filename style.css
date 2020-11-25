@@ -266,6 +266,11 @@ h1 {
     grid-template-columns: 1fr 1fr;
 }
 /* Mikkel css */
+
+* {
+    box-sizing: border-box;
+}   
+
 body {
     max-width: 375px;
     background-color: #fff9e4;
@@ -275,9 +280,29 @@ body {
 }
 
 .topbox {
+    display: flex;
+    flex: 33%;
+    padding: 5px;
+    width: 100%;
 
 }
 
 .tid {
     text-align: center;
+}
+
+.chat1 {
+
+}
+
+.chat2 {
+
+}
+
+.chat3 {
+
+}
+
+.chat4 {
+
 }
