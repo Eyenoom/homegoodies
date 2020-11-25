@@ -183,26 +183,46 @@ h1 {
 
 .nem_id {
     background-color: #f6d8b6;
-    padding: 5px;
-    display: flex;
-    justify-content: center; 
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 100vw;
 }
 
 .tidspunkt {
     text-align: center;
     width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.boks {
+    height: 90%;
 }
 
 .pris {
-    text-align: end;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.prisb {
+    height: 20vw;
+    width: 40vw;    
 }
 
 .portion {
-    text-align: center;
+    text-align: left;
     width: 100vw;
 }
 
+.opret {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
 
 .lasagne {
     background-color: #f6d8b6;
