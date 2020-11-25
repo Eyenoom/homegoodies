@@ -306,7 +306,7 @@ h1 {
 /* Mikkel css */
 
 body {
-    max-width: 375px;
+    max-width: 400px;
     background-color: #fff9e4;
     color: #2b2a28;
     margin: 0px;
@@ -391,9 +391,122 @@ body {
 }
 
 .top {
-    background-color: asdsad;
+    position: relative;
 }
 
 .bot {
+    margin-top: 50px;
+}
 
+.heart {
+    position: absolute;
+    top: 0;
+    left: 325px;
+}
+
+.stars {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.bollerikarry {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 250px;
+}
+
+.gadenavn {
+    background-color: #c44c06;
+    position: absolute;
+    width: 170px;
+    top: 193px;
+    left: 230px;
+    color: white;
+    font-size: 25px;
+}
+
+.gertrudmad {
+    position: absolute;
+    top: 205px;
+    left: 30px;
+}
+
+.h1center {
+    position: absolute;
+    top: 230px;
+    left: 135px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.h1stor {
+    font-size: 40px;
+    top: 0px;
+}
+
+.bollerbars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100px 300px;
+    top: 0px;
+    position: absolute;
+    top: 350px;
+}
+
+.portionerboller {
+    background-color: #f6d8b6;
+    margin-left: 50px;
+    width: 120px;
+    text-align: left;
+    font-size: 25px;
+    
+}
+
+.tidspunktboller {
+    background-color: #f6d8b6;
+    margin-left: 75px;
+    width: 170px;
+    font-size: 25px;
+    
+}
+
+.bunden {
+    position: relative;
+    top: 20px;
+}
+
+.tyvedkk {
+    font-size: 40px;
+}
+
+.perportion {
+    position: absolute;
+    top: 20px;
+    left: 145px;
+}
+
+.bestil {
+    position: absolute;
+    top: 80px;
+    left: 135px;
+    background-color: #c44c06;
+    width: 130px;
+    text-align: center;
+    color: white;
+}
+
+.allergener {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+
+.mælk {
+    position: absolute;
+    top: 210px;
+    left: 20px;
 }
