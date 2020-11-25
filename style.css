@@ -357,18 +357,6 @@ body {
     color: white;
 }
 
-.chat3 {
-
-}
-
-.chat4 {
-
-}
-
-.chat5 {
-
-}
-
 .besked {
     background-color: #c44c06;
     width: 360px;
@@ -381,6 +369,23 @@ body {
 }
 
 .h2chat {
-    padding: 10px;
+    padding: 12px;
     font-size: 20px;
+    
+}
+
+.lydknap {
+    width: 13%;
+    padding: 2px;
+    text-align: center;
+    display: inline;
+    float: right;
+}
+
+.h2besked {
+    text-align: center;
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
 }
