@@ -265,3 +265,24 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+/* Mikkel css */
+body {
+    max-width: 375px;
+    background-color: #fff9e4;
+    color: #2b2a28;
+    margin: 0px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.topbox {
+    background-color: #c44c06;
+    border: 0;
+    padding: 15px;
+    left: 100px;
+    top: 100px;
+    text-align: center;
+}
+
+.tid {
+    text-align: center;
+}
