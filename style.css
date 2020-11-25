@@ -226,37 +226,55 @@ h1 {
 
 .lasagne {
     background-color: #f6d8b6;
-    text-align: end;
+    text-align: center;
     width: 100vw;
     display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.lasagneb {
+    position: absolute;left: 0%;
+}
+
+.taleb {
+    position: absolute;right: 0%;
 }
 
 .pastinak {
     background-color: #f6d8b6;
-    text-align: end; 
+    text-align: center; 
     width: 100vw;
     display: block;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .frikadeller {
     background-color: #f6d8b6;
-    text-align: end;
+    text-align: center;
     width: 100vw;
     display: block;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .smørrebrød {
     background-color: #f6d8b6;
-    text-align: end;
+    text-align: center;
     width: 100vw;
     display: block;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .flæskesteg {
     background-color: #f6d8b6;
-    text-align: end;
+    text-align: center;
     width: 100vw;
     display: block;  
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .navn {
