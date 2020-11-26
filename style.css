@@ -18,6 +18,11 @@ body {
     font-family: 'Yantramanav', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #2b2a28;
+}
+
 .menubar {
     background-color: #c44c06;
     color: #f2eeee;
@@ -29,15 +34,22 @@ body {
     font-size: 4.5vw;
 }
 
+.menubar a {
+    color: #f2eeee;
+}
+
 .menubar--min_profil {
     background-color: #c44c06;
-    color: #f2eeee;
     position: fixed;
     bottom: 0px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     font-size: 4.5vw;
+}
+
+.menubar--min_profil a {
+    color: #f2eeee;
 }
 
 
@@ -89,13 +101,44 @@ main {
 /* search_result.html styles - TINE */
 
 .kategori {
-    position: absolute;
-    opacity: 0%;
+    position: fixed;
+    left: -460px;
+    top: 7vh;
+    background-color: #c44c06;
+    height: 650px;
+    width: 500px;
+    color: #f2eeee;
 }
 
-.searchresult {
-
+.kategori__title {
+    position: fixed;
+    transform: rotate(90deg);
+    top: 325px;
+    left: -40px;
 }
+
+.kategori__items {
+    position: fixed;
+    top: 250px;
+    font-size: 28px;
+    list-style-type: "□ ";
+}
+
+.kategori:hover {
+    animation-name: kategoribox;
+    animation-duration: 0.7s;
+}
+
+
+@keyframes kategoribox {
+    0%   {left:-460px;}
+    100% {left: 0px;}
+  }
+
+  @keyframes kategorititle {
+    0%   {left:-40px;}
+    100% {left: 420px;}
+  }
 
 .searchresult__searchitem {
     background-color: #f6d8b6;
