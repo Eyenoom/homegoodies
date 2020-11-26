@@ -203,6 +203,33 @@ main {
     color: #f2eeee;
 }
 
+
+/* Portioner - TINE */
+
+.portioner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 32px;
+}
+
+.portioner h2 {
+    justify-self: center;
+}
+
+.bestil_button {
+    background-color: #c44c06;
+    color: #f2eeee;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.time_and_button {
+    display: grid;
+    justify-content: center;
+}
+
 /* CELINES RODET CSS, SORRY :(  */ 
 body {
     max-width: 375px;
