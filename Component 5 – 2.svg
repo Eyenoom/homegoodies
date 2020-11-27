@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="34.5" viewBox="0 0 350 34.5">
+  <g id="Component_5_2" data-name="Component 5 – 2" transform="translate(1)">
+    <text id="_0_5_km" data-name="0,5 km" transform="translate(23 30)" fill="#2b2a28" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-23.418" y="0">0,5 km</tspan></text>
+    <text id="_20_km" data-name="20  km" transform="translate(325 30)" fill="#2b2a28" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-23.875" y="0" xml:space="preserve">20  km</tspan></text>
+    <path id="Path_11" data-name="Path 11" d="M0,0H240" transform="translate(53.5 24.5)" fill="#f6d8b6" stroke="#f6d8b6" stroke-width="2"/>
+    <line id="Line_5" data-name="Line 5" y2="21" transform="translate(53.5 13.5)" fill="none" stroke="#c44c06" stroke-width="2"/>
+    <line id="Line_6" data-name="Line 6" y2="21" transform="translate(293.5 13.5)" fill="none" stroke="#c44c06" stroke-width="2"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="6.5" cy="6.5" r="6.5" transform="translate(222 18)" fill="#c44c06"/>
+    <text id="_17_5_km" data-name="17,5  km" transform="translate(227 13)" fill="#2b2a28" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-22.441" y="0" xml:space="preserve">17,5  km</tspan></text>
+  </g>
+</svg>
