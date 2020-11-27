@@ -634,24 +634,25 @@ body {
     font-size: 30px;
     text-align: center;
     border-radius: 10px;
+    color: white;
 }
 
 .adresse {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 70px;
 }
 
 .pandekagevej {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr; 
+    grid-template-rows: 50px 70px; 
 }
 
 .kort {
     display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 53px 50px 30px;
 }
 
 .h2adresse {
@@ -674,4 +675,28 @@ body {
 .kortdetaljer {
     margin-left: 15px;
     font-size: 30px;
+}
+
+.dankort {
+    margin-left: 15px;
+}
+
+.allergenerkort {
+    grid-column-start: 1;
+    margin-left: 15px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.nødder {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.kortrediger {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: 130px;
+    color: #c44c06;
 }
