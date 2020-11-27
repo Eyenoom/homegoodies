@@ -584,3 +584,94 @@ body {
     top: 210px;
     left: 20px;
 }
+
+.patriciatop {
+    background-color: #c44c06;
+    width: 400px;
+    height: 100px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.patriciabillede {
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.patricialagkage {
+    margin-top: 35px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.knapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.bestillingerknap{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    background-color: #f6d8b6;
+    font-size: 30px;
+    text-align: center;
+}
+
+.favoritterknap {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    background-color: #f6d8b6;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sælgditmadknap{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    background-color: #c44c06;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.adresse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.pandekagevej {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr; 
+}
+
+.kort {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+}
+
+.h2adresse {
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.rediger {
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #c44c06;
+}
+
+.h2pandekage {
+    grid-column-start: span 2;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.kortdetaljer {
+    margin-left: 15px;
+    font-size: 30px;
+}
